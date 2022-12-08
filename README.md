@@ -6,6 +6,33 @@ Building for:
 * L4T 32.2.1/JetPack 4.2.2
 * OpenCV 4.1.1
 * Packaging Option ( Builds package by default; --no_package does not build package)
+# ARCH_BIN
+`
+$ sudo python3 -m pip install -U jetson-stats
+$ jetson_release -v
+ - NVIDIA Jetson Xavier NX (Developer Kit Version)
+   * Jetpack 4.6.2 [L4T 32.7.2]
+   * NV Power Mode: MODE_10W_DESKTOP - Type: 5
+   * jetson_stats.service: active
+ - Board info:
+   * Type: Xavier NX (Developer Kit Version)
+   * SOC Family: tegra194 - ID:25
+   * Module: P3668 - Board: P3509-000
+   * Code Name: jakku
+   * CUDA GPU architecture (ARCH_BIN): 7.2
+   * Serial Number: ----------------
+ - Libraries:
+   * CUDA: 10.2.300
+   * cuDNN: 8.2.1.32
+   * TensorRT: 8.2.1.8
+   * Visionworks: 1.6.0.501
+   * OpenCV: NOT_INSTALLED compiled CUDA: NO
+   * VPI: ii libnvvpi1 1.2.3 arm64 NVIDIA Vision Programming Interface library
+   * Vulkan: 1.2.70
+ - jetson-stats:
+   * Version 3.1.4
+   * Works on Python 3.6.9
+`
 
 <em><b>Note: </b>The script does not check to see which version of L4T is running before building, understand the script may only work with the stated versions.</em>
 
