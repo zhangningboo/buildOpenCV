@@ -7,7 +7,7 @@ Building for:
 * OpenCV 4.1.1
 * Packaging Option ( Builds package by default; --no_package does not build package)
 # ARCH_BIN
-`
+```shell
 $ sudo python3 -m pip install -U jetson-stats
 $ jetson_release -v
  - NVIDIA Jetson Xavier NX (Developer Kit Version)
@@ -32,7 +32,7 @@ $ jetson_release -v
  - jetson-stats:
    * Version 3.1.4
    * Works on Python 3.6.9
-`
+```
 
 <em><b>Note: </b>The script does not check to see which version of L4T is running before building, understand the script may only work with the stated versions.</em>
 
