@@ -2,8 +2,8 @@
 # License: MIT. See license file in root directory
 # Copyright(c) JetsonHacks (2017-2019)
 
-OPENCV_VERSION=4.1.1
-# Jetson Nano
+OPENCV_VERSION=4.5.4
+# Jetson XAVIER NX
 ARCH_BIN=5.3
 INSTALL_DIR=/usr/local
 # Download the opencv_extras repository
@@ -114,8 +114,8 @@ sudo apt-get install -y python3-dev python3-numpy python3-py python3-pytest
 sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev 
 
 cd $OPENCV_SOURCE_DIR
-git clone --branch "$OPENCV_VERSION" https://github.com/opencv/opencv.git
-git clone --branch "$OPENCV_VERSION" https://github.com/opencv/opencv_contrib.git
+# git clone --branch "$OPENCV_VERSION" https://github.com/opencv/opencv.git
+# git clone --branch "$OPENCV_VERSION" https://github.com/opencv/opencv_contrib.git
 
 if [ $DOWNLOAD_OPENCV_EXTRAS == "YES" ] ; then
  echo "Installing opencv_extras"
