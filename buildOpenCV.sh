@@ -4,7 +4,7 @@
 
 OPENCV_VERSION=4.5.4
 # Jetson XAVIER NX
-ARCH_BIN=5.3
+ARCH_BIN=7.2
 INSTALL_DIR=/usr/local
 # Download the opencv_extras repository
 # If you are installing the opencv testdata, ie
