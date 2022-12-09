@@ -58,7 +58,7 @@ CMAKE_INSTALL_PREFIX=$INSTALL_DIR
 
 # Print out the current configuration
 echo "Build configuration: "
-echo " NVIDIA Jetson Nano"
+echo " NVIDIA Jetson NX"
 echo " OpenCV binaries will be installed in: $CMAKE_INSTALL_PREFIX"
 echo " OpenCV Source will be installed in: $OPENCV_SOURCE_DIR"
 if [ "$PACKAGE_OPENCV" = "" ] ; then
